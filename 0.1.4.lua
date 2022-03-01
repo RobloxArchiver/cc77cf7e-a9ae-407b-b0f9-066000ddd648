@@ -217,7 +217,7 @@ function finity.new(isdark, gprojectName, thinProject)
 	end)
 
 	self2.userinterface = self:Create("ScreenGui", {
-		Name = "FinityUI",
+		Name = SPACE_PROTECT_NAME,
 		ZIndexBehavior = Enum.ZIndexBehavior.Global,
 		ResetOnSpawn = false,
 	})
