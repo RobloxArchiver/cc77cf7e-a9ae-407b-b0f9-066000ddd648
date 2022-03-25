@@ -23,7 +23,7 @@
 local finity = {}
 finity.gs = {}
 
-local SPACE_PROTECT_NAME = "SPACE_" .. game:GetService("HttpService"):GenerateGUID(false)
+local SPACE_PROTECT_NAME = "PROTECT____" .. game:GetService("HttpService"):GenerateGUID(false)
 
 finity.theme = { -- light
 	main_container = Color3.fromRGB(249, 249, 255),
