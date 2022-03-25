@@ -23,7 +23,7 @@
 local finity = {}
 finity.gs = {}
 
-local SPACE_PROTECT_NAME = "PROTECT____" .. game:GetService("HttpService"):GenerateGUID(false)
+local PROTECT_NAME = "PROTECT____" .. game:GetService("HttpService"):GenerateGUID(false)
 
 finity.theme = { -- light
 	main_container = Color3.fromRGB(249, 249, 255),
@@ -214,7 +214,7 @@ function finity.new(isdark, gprojectName, thinProject)
 	end)
 
 	self2.userinterface = self:Create("ScreenGui", {
-		Name = SPACE_PROTECT_NAME,
+		Name = PROTECT_NAME,
 		ZIndexBehavior = Enum.ZIndexBehavior.Global,
 		ResetOnSpawn = false,
 	})
