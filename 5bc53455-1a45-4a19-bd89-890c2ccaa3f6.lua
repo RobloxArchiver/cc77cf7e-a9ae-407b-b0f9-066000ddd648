@@ -25,24 +25,26 @@ finity.gs = {}
 
 local PROTECT_NAME = "PROTECT____" .. game:GetService("HttpService"):GenerateGUID(false)
 
-finity.theme = { -- light
-	main_container = Color3.fromRGB(249, 249, 255),
-	separator_color = Color3.fromRGB(223, 219, 228),
+finity.theme = { -- light // purge theme
+	main_container = Color3.fromRGB(21,23,30),
+	separator_color = Color3.fromRGB(32,33,42),
 
-	text_color = Color3.fromRGB(96, 96, 96),
+	text_color = Color3.fromRGB(251,248,253), -- softer color
 
-	category_button_background = Color3.fromRGB(223, 219, 228),
-	category_button_border = Color3.fromRGB(200, 196, 204),
+	category_button_background = Color3.fromRGB(21,23,30),
+	category_button_border = Color3.fromRGB(0,0,0),
 
-	checkbox_checked = Color3.fromRGB(114, 214, 112),
-	checkbox_outer = Color3.fromRGB(198, 189, 202),
-	checkbox_inner = Color3.fromRGB(249, 239, 255),
+	checkbox_checked = Color3.fromRGB(255,104,71),
+	checkbox_outer = Color3.fromRGB(0,0,0),
+	checkbox_inner = Color3.fromRGB(32,33,42),
 
-	slider_color = Color3.fromRGB(114, 214, 112),
-	slider_color_sliding = Color3.fromRGB(114, 214, 112),
-	slider_background = Color3.fromRGB(198, 188, 202),
-	slider_text = Color3.fromRGB(112, 112, 112),
+	slider_color = Color3.fromRGB(255,104,71),
+	slider_color_sliding = Color3.fromRGB(255,104,71),
+	slider_background = Color3.fromRGB(32,33,42),
+	slider_text = Color3.fromRGB(251,248,253),
 
+	-- everything under isn't done gotta make a test bench
+	
 	textbox_background = Color3.fromRGB(198, 189, 202),
 	textbox_background_hover = Color3.fromRGB(215, 206, 227),
 	textbox_text = Color3.fromRGB(112, 112, 112),
