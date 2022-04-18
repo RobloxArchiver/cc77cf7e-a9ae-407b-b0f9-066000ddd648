@@ -40,21 +40,21 @@ finity.theme = { -- light // purge theme
 
 	slider_color = Color3.fromRGB(255,104,71),
 	slider_color_sliding = Color3.fromRGB(255,104,71),
-	slider_background = Color3.fromRGB(32,33,42),
+	slider_background = Color3.fromRGB(42,33,42),
 	slider_text = Color3.fromRGB(251,248,253),
 	
-	textbox_background = Color3.fromRGB(32,33,42),
+	textbox_background = Color3.fromRGB(42,33,42),
 	textbox_background_hover = Color3.fromRGB(31,33,40),
 	textbox_text = Color3.fromRGB(251,248,253),
 	textbox_text_hover = Color3.fromRGB(241,238,243),
 	textbox_placeholder = Color3.fromRGB(251,248,253),
 
-	dropdown_background = Color3.fromRGB(32,33,42),
+	dropdown_background = Color3.fromRGB(42,33,42),
 	dropdown_text = Color3.fromRGB(251,248,253),
 	dropdown_text_hover = Color3.fromRGB(241,238,243),
 	dropdown_scrollbar_color = Color3.fromRGB(37, 36, 38),
 	
-	button_background = Color3.fromRGB(32,33,42),
+	button_background = Color3.fromRGB(42,33,42),
 	button_background_hover = Color3.fromRGB(31,33,40),
 	button_background_down = Color3.fromRGB(44, 47, 56),
 	
